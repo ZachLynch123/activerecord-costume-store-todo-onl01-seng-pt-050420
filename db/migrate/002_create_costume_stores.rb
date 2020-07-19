@@ -1,4 +1,5 @@
 # Create your costume_stores migration here
+require "pry"
 class CostumeStore < ActiveRecord::Migration[5.2]
   
   def change 
