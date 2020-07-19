@@ -11,6 +11,7 @@ class CostumeStore < ActiveRecord::Migration[5.2]
       t.integer :still_in_business
       t.string :opening_time 
       t.string :closing_time
+      binding.pry
 
     end
   
